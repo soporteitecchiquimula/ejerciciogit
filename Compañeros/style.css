@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa; /* gris muy claro */
+    color: #2c3e50; /* gris azulado oscuro */
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #34495e; /* azul oscuro */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ecf0f1; /* blanco grisáceo */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2980b9; /* azul brillante */
+}
+
+/* Títulos y texto */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #34495e;
+}
